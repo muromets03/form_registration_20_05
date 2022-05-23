@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <section class="content">
+    <h2 class="header">Register</h2>
+    <p class="text_private">Create your account It`s free and only takes a minute</p>
+    <form
+    class="registration"
+    action=""
+    method="GET"
+    enctype="multipart/registration"
+  >
+    <div class="user_name">
+      <input
+      type="text"
+      name="username"
+      placeholder="First Name"
+      required
+      autofocus
+      pattern="^[a-z0-9_-]{3,15}$"  
+    />
+    <input
+    type="text"
+    name="username"
+    placeholder="Last Name"
+    required
+    autofocus
+    pattern="^[a-z0-9_-]{3,15}$"  
+  />
+  
+    </div>
+
+    <input type="email" name="email"  placeholder="Email" class="input_field" required />
+    <input type="password" name="password"  placeholder="Password" class="input_field" required/>
+    <input type="confirm_password" name="confirm_password" placeholder=" Confirm Password" class="input_field"  required/>
+   
+    <label> 
+      <input type="checkbox" name="licensia" value="1"/>I accept the <a href="target_blank">Terms of Use </a> &
+      <a href="target_blank">Privacy Police</a></input>
+    </label>
+    
+     <button class="btn"> Register Now</button>
+  
+  </form>
+  <p class="text_private footer">Already have an account 
+    <a href="#">Sign in</a>
+   </p>
+  
+  </section>
+
+</body>
+</html>
+  
+
+</html>
